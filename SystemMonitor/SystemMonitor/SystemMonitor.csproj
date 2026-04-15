@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Outputs\" />
+    <PackageReference Include="System.Diagnostics.PerformanceCounter" Version="10.0.6" />
   </ItemGroup>
 
   <ItemGroup>
