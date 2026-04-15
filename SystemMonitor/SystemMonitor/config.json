@@ -1,0 +1,5 @@
+{
+  "IntervalSec": 1,
+  "OutputTo": "Console",
+  "LogFile": "monitor.log"
+}
