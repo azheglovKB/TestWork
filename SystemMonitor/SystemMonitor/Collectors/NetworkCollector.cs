@@ -1,5 +1,5 @@
 ﻿using System.Net.NetworkInformation;
-
+//сеть
 namespace SystemMonitor.Collectors
 {
     public class NetworkCollector : BaseCollector
@@ -36,9 +36,9 @@ namespace SystemMonitor.Collectors
             long totalReceived = 0;
             long totalSent = 0;
 
-            foreach (var ni in interfaces)
+            foreach (var i in interfaces)
             {
-                var stats = ni.GetIPv4Statistics();
+                var stats = i.GetIPv4Statistics();
                 totalReceived += stats.BytesReceived;
                 totalSent += stats.BytesSent;
             }

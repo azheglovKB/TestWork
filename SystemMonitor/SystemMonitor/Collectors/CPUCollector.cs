@@ -1,5 +1,5 @@
 ﻿using System.Diagnostics;
-
+//процессор
 namespace SystemMonitor.Collectors
 {
     public class CpuCollector : BaseCollector

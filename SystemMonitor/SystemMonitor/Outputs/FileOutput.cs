@@ -1,5 +1,5 @@
 ﻿using SystemMonitor.Interfaces;
-
+//вывод в файл
 namespace SystemMonitor.Outputs
 {
     public class FileOutput : IOutput

@@ -22,7 +22,7 @@ var collectors = new BaseCollector[]
     new NetworkCollector()
 };
 
-// 4. Запускаем мониторинг
+
 Console.WriteLine("Мониторинг запущен. Нажмите Ctrl+c, чтобы остановить.");
 Console.WriteLine($"Интервал: {config.IntervalSec} сек | Записывать в : {config.OutputTo}");
 Console.WriteLine(new string('-', 50));

@@ -1,5 +1,5 @@
 ﻿using SystemMonitor.Interfaces;
-
+//вывод консоль
 namespace SystemMonitor.Outputs
 {
     public class ConsoleOutput : IOutput

@@ -1,5 +1,5 @@
 ﻿using System.Diagnostics;
-
+//память
 namespace SystemMonitor.Collectors
 {
     public class MemoryCollector : BaseCollector
